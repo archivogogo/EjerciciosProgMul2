@@ -1,7 +1,7 @@
-x = 5
-y = 5
-
-def primera_funcion():
-    print((x + y) / (x ** 2 - y))
+def primera_funcion(x,y):
+    print(x+y)
+    print(x*y)
+    print(x/y)
+    print(x-y)
     
-primera_funcion()
+primera_funcion(5,5)
