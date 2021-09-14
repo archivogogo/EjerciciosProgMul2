@@ -1,11 +1,7 @@
-def funcion():
-    x = int(input('Favor de escribir la cantidad en metros que quiera convertir a pies:'))
-    return x * 3.281
+def convertir_medidas():
+    x = int(input('Favor de escribir la cantidad en metros que quiera convertir a pies y a kilometros:'))
+    print(x * 3.281)
+    print(x * 1000)
 
-print(funcion())
+convertir_medidas()
 
-def funcion2():
-    x = int(input('Ahora, favor de escribir la cantidad en metros que quiera convertir a kilometros:'))
-    return x / 1000
-
-print(funcion2())

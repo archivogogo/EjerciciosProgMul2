@@ -1,4 +1,4 @@
-def funcion():
+def calcular_mayornumero():
     x = str(input("favor de escribir un número al azar:"))
     y = str(input("favor de escribir otro número al azar:"))
     if x>y:
@@ -6,4 +6,4 @@ def funcion():
     else:
         print (y)
 
-funcion()
+calcular_mayornumero()
