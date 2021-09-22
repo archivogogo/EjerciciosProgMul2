@@ -1,7 +1,7 @@
-def funcion(lista):
+def ordenar_lista(lista):
     lista.sort()
     return lista
 
 lista=[5,3,1,2,4]
 
-print(funcion(lista))
+print(ordenar_lista(lista))
